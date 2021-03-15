@@ -1,7 +1,11 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import { FiGithub, FiLinkedin } from 'react-icons/fi';
+import {
+  IoDocumentTextOutline,
+  IoLogoLinkedin,
+  IoLogoGithub,
+} from 'react-icons/io5';
 
 export const Footer = () => {
   return (
@@ -15,10 +19,13 @@ export const Footer = () => {
       >
         <Nav className='ml-auto mr-auto'>
           <Nav.Link href='https://github.com/shawn220a'>
-            <FiGithub />
+            <IoLogoGithub />
           </Nav.Link>
           <Nav.Link href='https://www.linkedin.com/in/shawn-tschoepe/'>
-            <FiLinkedin />
+            <IoLogoLinkedin />
+          </Nav.Link>
+          <Nav.Link href='#resume'>
+            <IoDocumentTextOutline />
           </Nav.Link>
         </Nav>
       </Navbar>
