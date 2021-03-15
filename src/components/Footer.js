@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { IconContext } from 'react-icons';
 import {
   IoDocumentTextOutline,
   IoLogoLinkedin,
@@ -19,13 +20,19 @@ export const Footer = () => {
       >
         <Nav className='ml-auto mr-auto'>
           <Nav.Link href='https://github.com/shawn220a'>
-            <IoLogoGithub />
+            <IconContext.Provider value={{ color: '#fff', size: '2rem' }}>
+              <IoLogoGithub />
+            </IconContext.Provider>
           </Nav.Link>
           <Nav.Link href='https://www.linkedin.com/in/shawn-tschoepe/'>
-            <IoLogoLinkedin />
+            <IconContext.Provider value={{ color: '#fff', size: '2rem' }}>
+              <IoLogoLinkedin />
+            </IconContext.Provider>
           </Nav.Link>
           <Nav.Link href='#resume'>
-            <IoDocumentTextOutline />
+            <IconContext.Provider value={{ color: '#fff', size: '2rem' }}>
+              <IoDocumentTextOutline />
+            </IconContext.Provider>
           </Nav.Link>
         </Nav>
       </Navbar>
