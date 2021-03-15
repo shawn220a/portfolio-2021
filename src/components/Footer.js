@@ -14,10 +14,10 @@ export const Footer = () => {
         variant='dark'
       >
         <Nav className='ml-auto mr-auto'>
-          <Nav.Link href='#github'>
+          <Nav.Link href='https://github.com/shawn220a'>
             <FiGithub />
           </Nav.Link>
-          <Nav.Link href='#linkedin'>
+          <Nav.Link href='https://www.linkedin.com/in/shawn-tschoepe/'>
             <FiLinkedin />
           </Nav.Link>
         </Nav>
