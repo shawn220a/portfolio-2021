@@ -33,7 +33,7 @@ export const Portfolio = () => {
         <Card style={{ width: '30rem' }} className='mx-auto'>
           <Card.Img
             variant='top'
-            src='holder.js/100px180'
+            src='./assets/Jobless.png'
             width='600'
             height='300'
           />
