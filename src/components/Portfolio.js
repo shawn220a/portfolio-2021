@@ -13,8 +13,8 @@ export const Portfolio = () => {
           <Card.Body>
             <Card.Title>Southwest Education</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              The official website for southwest education to generate company
+              presence and sales revenue.
             </Card.Text>
             <Button className='ml-5 mr-2' variant='primary'>
               Live
@@ -30,25 +30,8 @@ export const Portfolio = () => {
           <Card.Body>
             <Card.Title>Jobless</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </Card.Text>
-            <Button className='ml-5 mr-2' variant='primary'>
-              Live
-            </Button>
-            <Button variant='primary'>
-              <IoLogoGithub className='mr-2 mb-1' />
-              GitHub
-            </Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '18rem' }} className='mx-auto'>
-          <Card.Img variant='top' src='holder.js/100px180' />
-          <Card.Body>
-            <Card.Title>Code Quiz</Card.Title>
-            <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              An application and interactive blog helping job seekers directly
+              affected by the pandemic.
             </Card.Text>
             <Button className='ml-5 mr-2' variant='primary'>
               Live
