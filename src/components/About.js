@@ -1,8 +1,9 @@
 import React from 'react';
+import './About.css';
 
 export const About = () => {
   return (
-    <div>
+    <div className='About'>
       <h1>About</h1>
       <p>
         Full Stack developer and a graduate of the University of Texas at

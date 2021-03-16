@@ -6,7 +6,7 @@ import './Portfolio.css';
 
 export const Portfolio = () => {
   return (
-    <div>
+    <div className='Portfolio'>
       <h1>Portfolio</h1>
       <div className='row'>
         <Card style={{ width: '30rem' }} className='mx-auto project'>

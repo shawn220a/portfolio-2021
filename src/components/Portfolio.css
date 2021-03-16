@@ -1,3 +1,7 @@
+.Portfolio {
+  min-height: 800px;
+}
+
 .project {
   border: 3px #333 solid !important;
 }
