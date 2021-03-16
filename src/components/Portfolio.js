@@ -8,7 +8,7 @@ export const Portfolio = () => {
     <div>
       <h1>Portfolio</h1>
       <div className='row'>
-        <Card style={{ width: '18rem' }} className='mx-auto'>
+        <Card style={{ width: '30rem' }} className='mx-auto'>
           <Card.Img variant='top' src='./assets/SouthwestEducation.png' />
           <Card.Body>
             <Card.Title>Southwest Education</Card.Title>
@@ -25,7 +25,7 @@ export const Portfolio = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }} className='mx-auto'>
+        <Card style={{ width: '30rem' }} className='mx-auto'>
           <Card.Img variant='top' src='holder.js/100px180' />
           <Card.Body>
             <Card.Title>Jobless</Card.Title>
