@@ -2,13 +2,14 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import { IoLogoGithub } from 'react-icons/io5';
+import './Portfolio.css';
 
 export const Portfolio = () => {
   return (
     <div>
       <h1>Portfolio</h1>
       <div className='row'>
-        <Card style={{ width: '30rem' }} className='mx-auto'>
+        <Card style={{ width: '30rem' }} className='mx-auto project'>
           <Card.Img
             variant='top'
             src='./assets/SouthwestEducation.png'
@@ -30,7 +31,7 @@ export const Portfolio = () => {
             </Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: '30rem' }} className='mx-auto'>
+        <Card style={{ width: '30rem' }} className='mx-auto project'>
           <Card.Img
             variant='top'
             src='./assets/Jobless.png'
