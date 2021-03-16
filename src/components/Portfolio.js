@@ -23,7 +23,9 @@ export const Portfolio = () => {
               presence and sales revenue.
             </Card.Text>
             <div className='links'>
-              <Button variant='primary'>Live</Button>
+              <Button className='px-4' variant='primary'>
+                Live
+              </Button>
               <Button variant='primary'>
                 <IoLogoGithub className='mr-2 mb-1' />
                 GitHub
@@ -45,7 +47,9 @@ export const Portfolio = () => {
               affected by the pandemic.
             </Card.Text>
             <div className='links'>
-              <Button variant='primary'>Live</Button>
+              <Button className='px-4' variant='primary'>
+                Live
+              </Button>
               <Button variant='primary'>
                 <IoLogoGithub className='mr-2 mb-1' />
                 GitHub
