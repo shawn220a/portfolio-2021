@@ -7,7 +7,7 @@ export const Portfolio = () => {
     <div>
       <h1>Portfolio</h1>
       <div className='row'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} className='mx-auto'>
           <Card.Img variant='top' src='holder.js/100px180' />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
@@ -19,7 +19,7 @@ export const Portfolio = () => {
             <Button variant='primary'>Go somewhere</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} className='mx-auto'>
           <Card.Img variant='top' src='holder.js/100px180' />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
@@ -31,7 +31,7 @@ export const Portfolio = () => {
             <Button variant='primary'>Go somewhere</Button>
           </Card.Body>
         </Card>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }} className='mx-auto'>
           <Card.Img variant='top' src='holder.js/100px180' />
           <Card.Body>
             <Card.Title>Card Title</Card.Title>
