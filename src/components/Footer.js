@@ -11,13 +11,7 @@ import {
 export const Footer = () => {
   return (
     <div>
-      <Navbar
-        fixed='bottom'
-        collapseOnSelect
-        expand='lg'
-        bg='dark'
-        variant='dark'
-      >
+      <Navbar collapseOnSelect expand='lg' bg='dark' variant='dark'>
         <Nav className='ml-auto mr-auto'>
           <Nav.Link href='https://github.com/shawn220a'>
             <IconContext.Provider value={{ color: '#fff', size: '2rem' }}>
