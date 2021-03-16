@@ -9,7 +9,12 @@ export const Portfolio = () => {
       <h1>Portfolio</h1>
       <div className='row'>
         <Card style={{ width: '30rem' }} className='mx-auto'>
-          <Card.Img variant='top' src='./assets/SouthwestEducation.png' />
+          <Card.Img
+            variant='top'
+            src='./assets/SouthwestEducation.png'
+            width='600'
+            height='300'
+          />
           <Card.Body>
             <Card.Title>Southwest Education</Card.Title>
             <Card.Text>
@@ -26,7 +31,12 @@ export const Portfolio = () => {
           </Card.Body>
         </Card>
         <Card style={{ width: '30rem' }} className='mx-auto'>
-          <Card.Img variant='top' src='holder.js/100px180' />
+          <Card.Img
+            variant='top'
+            src='holder.js/100px180'
+            width='600'
+            height='300'
+          />
           <Card.Body>
             <Card.Title>Jobless</Card.Title>
             <Card.Text>
