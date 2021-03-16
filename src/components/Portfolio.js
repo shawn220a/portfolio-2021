@@ -15,10 +15,10 @@ export const Portfolio = () => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button className='mb-1' variant='primary'>
-              Go somewhere
+            <Button className='ml-5 mr-2' variant='primary'>
+              Live
             </Button>
-            <Button variant='primary'>Go somewhere</Button>
+            <Button variant='primary'>GitHub</Button>
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }} className='mx-auto'>
@@ -29,10 +29,10 @@ export const Portfolio = () => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button className='mb-1' variant='primary'>
-              Go somewhere
+            <Button className='ml-5 mr-2' variant='primary'>
+              Live
             </Button>
-            <Button variant='primary'>Go somewhere</Button>
+            <Button variant='primary'>GitHub</Button>
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }} className='mx-auto'>
@@ -43,10 +43,10 @@ export const Portfolio = () => {
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button className='mb-1' variant='primary'>
-              Go somewhere
+            <Button className='ml-5 mr-2' variant='primary'>
+              Live
             </Button>
-            <Button variant='primary'>Go somewhere</Button>
+            <Button variant='primary'>GitHub</Button>
           </Card.Body>
         </Card>
       </div>
