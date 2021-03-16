@@ -22,13 +22,13 @@ export const Portfolio = () => {
               The official website for southwest education to generate company
               presence and sales revenue.
             </Card.Text>
-            <Button className='ml-5 mr-2' variant='primary'>
-              Live
-            </Button>
-            <Button variant='primary'>
-              <IoLogoGithub className='mr-2 mb-1' />
-              GitHub
-            </Button>
+            <div className='links'>
+              <Button variant='primary'>Live</Button>
+              <Button variant='primary'>
+                <IoLogoGithub className='mr-2 mb-1' />
+                GitHub
+              </Button>
+            </div>
           </Card.Body>
         </Card>
         <Card style={{ width: '30rem' }} className='mx-auto project'>
@@ -44,13 +44,13 @@ export const Portfolio = () => {
               An application and interactive blog helping job seekers directly
               affected by the pandemic.
             </Card.Text>
-            <Button className='ml-5 mr-2' variant='primary'>
-              Live
-            </Button>
-            <Button variant='primary'>
-              <IoLogoGithub className='mr-2 mb-1' />
-              GitHub
-            </Button>
+            <div className='links'>
+              <Button variant='primary'>Live</Button>
+              <Button variant='primary'>
+                <IoLogoGithub className='mr-2 mb-1' />
+                GitHub
+              </Button>
+            </div>
           </Card.Body>
         </Card>
       </div>

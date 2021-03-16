@@ -5,3 +5,8 @@
 .project {
   border: 3px #333 solid !important;
 }
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
