@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { IoLogoGithub } from 'react-icons/io5';
 
 export const Portfolio = () => {
   return (
@@ -18,7 +19,10 @@ export const Portfolio = () => {
             <Button className='ml-5 mr-2' variant='primary'>
               Live
             </Button>
-            <Button variant='primary'>GitHub</Button>
+            <Button variant='primary'>
+              <IoLogoGithub className='mr-2 mb-1' />
+              GitHub
+            </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }} className='mx-auto'>
@@ -32,7 +36,10 @@ export const Portfolio = () => {
             <Button className='ml-5 mr-2' variant='primary'>
               Live
             </Button>
-            <Button variant='primary'>GitHub</Button>
+            <Button variant='primary'>
+              <IoLogoGithub className='mr-2 mb-1' />
+              GitHub
+            </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }} className='mx-auto'>
@@ -46,7 +53,10 @@ export const Portfolio = () => {
             <Button className='ml-5 mr-2' variant='primary'>
               Live
             </Button>
-            <Button variant='primary'>GitHub</Button>
+            <Button variant='primary'>
+              <IoLogoGithub className='mr-2 mb-1' />
+              GitHub
+            </Button>
           </Card.Body>
         </Card>
       </div>
